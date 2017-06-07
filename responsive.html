@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Menu</title>
+<style>
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1 ,.col-lg-2,.col-lg-3{
+  
+    float: left;
+    
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 33.33%;
+  }
+  .col-lg-3 {
+    width: 33.33%;
+  }
+ 
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+   
+    margin-right: auto;
+  margin-left: auto;
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 100%;
+    float: bottom;
+  }
+  
+}
+</style>
+</head>
+<body>
+<h1>Responsive Layout</h1>
+
+<div class="row">
+  <div  class="col-lg-1 col-md-1"><p align=right>Chicken<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut consectetuer adipiscing elit. Aenean c  </p> </div>
+  <div class="col-lg-2 col-md-2"><p align=right>Beef <br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut consectetuer adipiscing elit. Aenean c </p></div>
+  <div class="col-lg-3 col-md-3"><p  align=right>Sushi<br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut consectetuer adipiscing elit. Aenean c </b></p></div>
+  
+</div>
+
+</body>
+</html>
